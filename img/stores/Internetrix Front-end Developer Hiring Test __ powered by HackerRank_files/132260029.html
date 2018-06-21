@@ -1,0 +1,86 @@
+
+<!-- saved from url=(0108)https://design-6259423-gie5f6tdflq.hrcdn.net/recruit/attempts/6259423/questions/gie5f6tdflq/render/132260029 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">
+ /* Add your css styles here */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    border: 2px solid grey;
+    position: relative;
+}
+
+#div1{
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+}
+
+#div2{
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    top: 15%;
+    left: 15%;
+}
+
+#div3{
+    width: 200px;
+    height: 75px;
+    top: 15%;
+    left: 15%;
+}
+</style>
+ <!-- Enter your HTML code here -->
+</head><body><div class="box" id="div1" onclick="printName()"> Div1
+<div class="box" id="div2" onclick="printName()"> Div2
+<div class="box" id="div3" onclick="printName()"> Div3
+</div>
+</div>
+</div>
+
+<script>
+    function printName(event) {
+        document.getElementById('div3').innerHTML = 'hello';
+        // event.stopPropagation();
+        // alert(event);
+}
+
+</script>
+ <script type="text/javascript">
+ // Add your javascript here
+
+function printName(event) {
+    let name = document.getElementById("demo").innerHTML();
+    alert(name);
+}
+
+
+
+
+
+
+// $(document).ready(function(){
+//     console.log('ready');
+    
+   
+//     //StopPropagation is called for Div2 and Div3 to prevent the alert boxes from popping when the boxes overlapping it is called
+//     $('.div3').click(function(event){
+//         event.stopPropagation();
+//         alert('Div 3');   
+//     })//div3
+    
+//     $('.div2').click(function(event){
+//         event.stopPropagation();
+//         alert('Div 2');
+//     })//div2
+    
+//     $('.div1').click(function(){
+//         alert('Div 1');
+//     })//div1
+    
+// })//$(document).ready
+ </script>
+</body></html>
