@@ -3,9 +3,4 @@
 - Responsive 
 - Status : In Progress 
 Demo Website link  : [https://lorven-fuels.herokuapp.com/]
-
-![sample video](https://drive.google.com/open?id=1YbRWjNq7MLgXreR2crsimx_7G_EToaEv)
-<video controls="controls">
-  <source type="video/webm" src="./lorvenfuels.webm"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nLyOCEvvjNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
